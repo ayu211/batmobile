@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url('wp3356414.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image h2{
+    color: rgb(3, 4, 3);
+}
+.image h1{
+    color: red;
+}

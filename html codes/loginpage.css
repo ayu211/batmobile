@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.loginbox{
+    margin: 0%;
+    padding: 20px;
+    border-radius: 7%;
+    width: 300px;
+    height: 380hw;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0);
+}
+.loginbox h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 30px; */
+    padding: 10px 0;
+    color:white;
+}
+.loginbox p{
+    font-family: 'arial';
+    font-weight: bold;
+    color: white;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    
+    border: rgb(15, 8, 8);
+    border-bottom: 1px solid rgb(245, 245, 245);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(255, 255, 255);
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    background: #fb2525;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.loginbox a{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(248, 248, 248);
+}
+.implinks{
+    text-align: center;
+}
+.logo1{
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.implinks a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(19, 10, 10);
+    font-size: 23px;
+    background-color: rgba(223, 98, 60, 0.453);
+    border-radius: 100% 60%;
+    transform-origin: center;
+}
+.aboutus p{
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+}

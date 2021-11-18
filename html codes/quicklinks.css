@@ -1,0 +1,20 @@
+
+body{
+   margin: 0;
+   padding: 0;
+}
+.quicklinks{
+    width: 320px;
+    height: 320px;
+    background: rgba(40, 124, 163, 0.85);
+    top: 40%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.quicklinks a{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}

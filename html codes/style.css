@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+.loginbox{
+    width: 320px;
+    height: 320px;
+    background: rgba(40, 124, 163, 0.85);
+    top: 40%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: #fff;
+    border-bottom: 1px solid rgb(36, 41, 196);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+.facts{
+    width: 320px;
+    height: 250px;
+    background: rgba(40, 124, 163, 0.85);
+    top: 80%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.facts li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(42, 13, 230);
+}
+.implinks{
+    text-align: center;
+}
+.logo1{
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.implinks a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(19, 10, 10);
+    font-size: 23px;
+    background-color: rgba(223, 98, 60, 0.453);
+    border-radius: 100% 60%;
+    transform-origin: center;
+}
+div marquee h3{
+    color: rgb(131, 30, 30);
+}
